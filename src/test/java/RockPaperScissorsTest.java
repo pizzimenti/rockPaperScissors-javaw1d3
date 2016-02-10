@@ -31,5 +31,4 @@ public class RockPaperScissorsTest {
     RockPaperScissors testRockPaperScissors = new RockPaperScissors();
     assertEquals("players tie", testRockPaperScissors.checkWinner("Scissors", "Scissors"));
   }
-
 }
