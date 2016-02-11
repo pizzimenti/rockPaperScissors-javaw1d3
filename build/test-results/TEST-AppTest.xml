@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AppTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-02-11T00:14:04" hostname="epicodus-60.local" time="0.457">
+<testsuite name="AppTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-02-11T00:42:19" hostname="epicodus-61.local" time="0.372">
   <properties/>
-  <testcase name="NoValidInputTest" classname="AppTest" time="0.358"/>
-  <testcase name="tieTest" classname="AppTest" time="0.022"/>
-  <testcase name="rootTest" classname="AppTest" time="0.012"/>
-  <testcase name="playerOneWinTest" classname="AppTest" time="0.019"/>
-  <testcase name="playerTwoWinTest" classname="AppTest" time="0.019"/>
+  <testcase name="NoValidInputTest" classname="AppTest" time="0.294"/>
+  <testcase name="tieTest" classname="AppTest" time="0.019"/>
+  <testcase name="rootTest" classname="AppTest" time="0.01"/>
+  <testcase name="playerOneWinTest" classname="AppTest" time="0.016"/>
+  <testcase name="playerTwoWinTest" classname="AppTest" time="0.016"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Thread-4] INFO spark.webserver.SparkServer - == Spark has ignited ...
 [Thread-4] INFO spark.webserver.SparkServer - >> Listening on 0.0.0.0:4567
 [Thread-4] INFO org.eclipse.jetty.server.Server - jetty-9.0.2.v20130417
-[Thread-4] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@171e1d15{HTTP/1.1}{0.0.0.0:4567}
+[Thread-4] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@3cc9922e{HTTP/1.1}{0.0.0.0:4567}
 [Test worker] INFO spark.webserver.SparkServer - >>> Spark shutting down ...
-[Test worker] INFO org.eclipse.jetty.server.Server - Graceful shutdown org.eclipse.jetty.server.Server@71d8b3a5 by 
-[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@171e1d15{HTTP/1.1}{0.0.0.0:4567}
+[Test worker] INFO org.eclipse.jetty.server.Server - Graceful shutdown org.eclipse.jetty.server.Server@24adac42 by 
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@3cc9922e{HTTP/1.1}{0.0.0.0:4567}
 [Test worker] INFO spark.webserver.SparkServer - done
 ]]></system-err>
 </testsuite>

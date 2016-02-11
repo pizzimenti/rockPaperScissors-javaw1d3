@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RockPaperScissorsTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-02-11T00:14:05" hostname="epicodus-60.local" time="0.001">
+<testsuite name="RockPaperScissorsTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-02-11T00:42:19" hostname="epicodus-61.local" time="0.0">
   <properties/>
-  <testcase name="checkWinner_tie_string" classname="RockPaperScissorsTest" time="0.001"/>
+  <testcase name="checkWinner_tie_string" classname="RockPaperScissorsTest" time="0.0"/>
   <testcase name="checkWinner_scissorsBeatsPaper_string" classname="RockPaperScissorsTest" time="0.0"/>
   <testcase name="checkWinner_rockBeatsScissors_string" classname="RockPaperScissorsTest" time="0.0"/>
   <testcase name="checkWinner_playerWinCheck_string" classname="RockPaperScissorsTest" time="0.0"/>
