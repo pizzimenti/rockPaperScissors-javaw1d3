@@ -7,6 +7,7 @@ import static spark.Spark.*;
 
 public class RockPaperScissors {
   public static void main(String[] args) {
+    staticFileLocation("/public");
     String layout = "templates/layout.vtl";
 
     get("/", (request, response) -> {

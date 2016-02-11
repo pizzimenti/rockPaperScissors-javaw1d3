@@ -21,9 +21,41 @@ public class AppTest extends FluentTest {
       assertThat(pageSource()).contains("Rock Paper Scissors Game");
   }
 
-  // @Test
-  // public void checkWinner() {
-  //   goTo("http://localhost:4567/player1");
-  //   fill("#year")
-  // }
+  @Test
+  public void playerTwoWinTest() {
+    goTo("http://localhost:4567/game");
+    fill("#playerOne").with("scissors");
+    fill("#playerTwo").with("rock");
+    submit(".btn");
+    assertThat(pageSource()).contains("player two wins");
+  }
+
+  @Test
+  public void tieTest() {
+    goTo("http://localhost:4567/game");
+    fill("#playerOne").with("scissors");
+    fill("#playerTwo").with("scissors");
+    submit(".btn");
+    assertThat(pageSource()).contains("players tie");
+  }
+
+  @Test
+  public void playerOneWinTest() {
+    goTo("http://localhost:4567/game");
+    fill("#playerOne").with("scissors");
+    fill("#playerTwo").with("paper");
+    submit(".btn");
+    assertThat(pageSource()).contains("player one wins");
+  }
+
+  @Test
+  public void NoValidInputTest() {
+    goTo("http://localhost:4567/game");
+    fill("#playerOne").with("house");
+    fill("#playerTwo").with("paper");
+    submit(".btn");
+    assertThat(pageSource()).contains("user input not valid");
+  }
+
+
 }
